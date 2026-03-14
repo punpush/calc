@@ -5,13 +5,9 @@
 #include <QPushButton>
 #include <QGridLayout>
 
+#include "calculatorwid_export.h"
 
-#include <QWidget>
-#include <QLineEdit>
-#include <QPushButton>
-#include <QGridLayout>
-
-class Calculator : public QWidget
+class CALCULATORWID_EXPORT Calculator : public QWidget
 {
     Q_OBJECT
 
